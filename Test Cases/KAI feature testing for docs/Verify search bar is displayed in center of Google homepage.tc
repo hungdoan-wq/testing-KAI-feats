@@ -11,7 +11,7 @@
       <properties>
          <entry>
             <key>integratedValue</key>
-            <value>{&quot;author&quot;:null,&quot;status&quot;:&quot;DRAFT&quot;,&quot;assignee&quot;:&quot;hung.doan@katalon.com&quot;,&quot;linkedTestCaseIds&quot;:[],&quot;customFields&quot;:{&quot;customField&quot;:[{&quot;key&quot;:&quot;featureArea&quot;,&quot;value&quot;:[&quot;Search&quot;]},{&quot;key&quot;:&quot;testType&quot;,&quot;value&quot;:[&quot;Functional Test&quot;]}]},&quot;priority&quot;:&quot;MEDIUM&quot;,&quot;automationStatus&quot;:&quot;AUTOMATION_CANDIDATE&quot;}</value>
+            <value>{&quot;author&quot;:null,&quot;status&quot;:&quot;DRAFT&quot;,&quot;assignee&quot;:&quot;hung.doan@katalon.com&quot;,&quot;linkedTestCaseIds&quot;:[],&quot;customFields&quot;:{&quot;customField&quot;:[{&quot;key&quot;:&quot;featureArea&quot;,&quot;value&quot;:[&quot;Search&quot;]},{&quot;key&quot;:&quot;testType&quot;,&quot;value&quot;:[&quot;Functional Test&quot;,&quot;Integration Test&quot;]}]},&quot;priority&quot;:&quot;MEDIUM&quot;,&quot;automationStatus&quot;:&quot;AUTOMATION_CANDIDATE&quot;}</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
