@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open Google Homepage, wait for search box, and verify there is either an image or some text above the search box in the page layout.</description>
+   <name>TC_Verify_ImageOrText_Above_SearchBox</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>86260d7e-4f94-4a43-8727-b21bf4384eda</testCaseGuid>
+</TestCaseEntity>
