@@ -21,7 +21,7 @@ try {
     // 1) Wait for the search box
     TestObject searchBox = byXpath("//textarea[@name='q'] | //input[@name='q']")
     WebUI.verifyElementPresent(searchBox, timeout)
-    WebUI.verifyElementVisible(searchBox)
+    WebUI.verifyElementVisible(searchBo)
 
     // 2) Verify there is either an image OR non-empty text above the search box (layout-wise)
     // Use the nearest preceding element that is an <img> or has non-empty visible text.
