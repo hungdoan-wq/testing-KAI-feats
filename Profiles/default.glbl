@@ -8,15 +8,21 @@
       <description></description>
       <initValue>10</initValue>
       <name>G_Timeout</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://demoaut.katalon.com'</initValue>
+      <initValue>'https://katalon-demo-cura.herokuapp.com/'</initValue>
       <name>G_SiteURL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>5</initValue>
       <name>G_ShortTimeOut</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

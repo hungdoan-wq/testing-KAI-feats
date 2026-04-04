@@ -1,0 +1,151 @@
+2026-04-04 17:08:05.155 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Users/hung.doan/Downloads/Katalon Studio 3.app/Contents/Eclipse/configuration/org.eclipse.osgi/150/0/.cp/resources/logback/logback-execution.xml
+2026-04-04 17:08:05.156 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/hung.doan/git/testing-KAI-feats/Include/config/log.properties
+2026-04-04 17:08:05.531 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/healthcare-tests - TS_RegressionTest
+2026-04-04 17:08:05.570 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Hung Chris Doan
+2026-04-04 17:08:05.570 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = test
+2026-04-04 17:08:05.571 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = hung.doan - 125.235.4.59.adsl.viettel.vn
+2026-04-04 17:08:05.571 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-04-04 17:08:05.571 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 125.235.4.59
+2026-04-04 17:08:05.572 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.0.0
+2026-04-04 17:08:05.645 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-04 17:08:05.645 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Main Test Cases/TC1_Verify Successful Login
+2026-04-04 17:08:05.669 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Username = John Doe
+2026-04-04 17:08:05.675 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Password = ThisIsNotAPassword
+2026-04-04 17:08:06.025 DEBUG testcase.TC1_Verify Successful Login     - 1: comment("Story: Login to CURA system")
+2026-04-04 17:08:06.055 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Story: Login to CURA system
+2026-04-04 17:08:06.063 DEBUG testcase.TC1_Verify Successful Login     - 2: comment("Given that the user has the valid login information")
+2026-04-04 17:08:06.066 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Given that the user has the valid login information
+2026-04-04 17:08:06.067 DEBUG testcase.TC1_Verify Successful Login     - 3: openBrowser(G_SiteURL)
+2026-04-04 17:08:06.187 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2026-04-04 17:08:06.190 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+2026-04-04 17:08:06.209 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-04 17:08:10.327 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0e78864a484706093af442ee0c16fc8b
+2026-04-04 17:08:10.327 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 146.0.7680.165
+2026-04-04 17:08:10.328 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-04-04 17:08:10.328 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-04 17:08:10.333 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-04 17:08:16.386 DEBUG testcase.TC1_Verify Successful Login     - 4: click(findTestObject("Page_CuraHomepage/btn_MakeAppointment"))
+2026-04-04 17:08:17.361 DEBUG testcase.TC1_Verify Successful Login     - 5: setText(findTestObject("Page_Login/txt_UserName"), Username)
+2026-04-04 17:08:18.205 DEBUG testcase.TC1_Verify Successful Login     - 6: setText(findTestObject("Page_Login/txt_Password"), Password)
+2026-04-04 17:08:18.738 DEBUG testcase.TC1_Verify Successful Login     - 7: comment("When he logins to CURA system")
+2026-04-04 17:08:18.740 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - When he logins to CURA system
+2026-04-04 17:08:18.741 DEBUG testcase.TC1_Verify Successful Login     - 8: click(findTestObject("Page_Login/btn_Login"))
+2026-04-04 17:08:19.578 DEBUG testcase.TC1_Verify Successful Login     - 9: comment("Then he should be able to login successfully")
+2026-04-04 17:08:19.592 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Then he should be able to login successfully
+2026-04-04 17:08:19.597 DEBUG testcase.TC1_Verify Successful Login     - 10: landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout)
+2026-04-04 17:08:20.042 DEBUG testcase.TC1_Verify Successful Login     - 11: closeBrowser()
+2026-04-04 17:08:22.211 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' .
+2026-04-04 17:08:22.213 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Main Test Cases/TC1_Verify Successful Login
+2026-04-04 17:08:22.216 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-04 17:08:22.216 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Main Test Cases/TC2_Verify Successful Appointment
+2026-04-04 17:08:22.257 DEBUG t.TC2_Verify Successful Appointment      - 1: comment("Story: Book an appointment")
+2026-04-04 17:08:22.258 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Story: Book an appointment
+2026-04-04 17:08:22.259 DEBUG t.TC2_Verify Successful Appointment      - 2: comment("Given that the user has logged into their account")
+2026-04-04 17:08:22.261 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Given that the user has logged into their account
+2026-04-04 17:08:22.261 DEBUG t.TC2_Verify Successful Appointment      - 3: openBrowser(G_SiteURL)
+2026-04-04 17:08:22.264 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2026-04-04 17:08:22.264 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+2026-04-04 17:08:22.266 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-04 17:08:24.338 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c7405b8dc1131b7aa2dcdc3b6e1f2f2b
+2026-04-04 17:08:24.338 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 146.0.7680.165
+2026-04-04 17:08:24.339 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-04-04 17:08:24.339 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-04 17:08:24.339 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-04 17:08:29.305 DEBUG t.TC2_Verify Successful Appointment      - 4: callTestCase(findTestCase("Common Test Cases/Login"), ["Username":"John Doe", "Password":"ThisIsNotAPassword"], STOP_ON_FAILURE)
+2026-04-04 17:08:29.387 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-04 17:08:29.387 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common Test Cases/Login
+2026-04-04 17:08:29.405 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = John Doe
+2026-04-04 17:08:29.406 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = ThisIsNotAPassword
+2026-04-04 17:08:29.481 DEBUG testcase.Login                           - 1: click(findTestObject("Page_CuraHomepage/btn_MakeAppointment"))
+2026-04-04 17:08:30.355 DEBUG testcase.Login                           - 2: setText(findTestObject("Page_Login/txt_UserName"), Username)
+2026-04-04 17:08:31.238 DEBUG testcase.Login                           - 3: setText(findTestObject("Page_Login/txt_Password"), Password)
+2026-04-04 17:08:31.782 DEBUG testcase.Login                           - 4: click(findTestObject("Page_Login/btn_Login"))
+2026-04-04 17:08:32.067 DEBUG testcase.Login                           - 5: landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout)
+2026-04-04 17:08:33.115 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common Test Cases/Login
+2026-04-04 17:08:33.116 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-04 17:08:33.124 DEBUG t.TC2_Verify Successful Appointment      - 5: comment("And Appointment page is displayed")
+2026-04-04 17:08:33.125 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - And Appointment page is displayed
+2026-04-04 17:08:33.126 DEBUG t.TC2_Verify Successful Appointment      - 6: if (true)
+2026-04-04 17:08:33.128 DEBUG t.TC2_Verify Successful Appointment      - 1: selectOptionByLabel(findTestObject("Page_CuraAppointment/lst_Facility"), "Hongkong CURA Healthcare Center", false)
+2026-04-04 17:08:33.640 DEBUG t.TC2_Verify Successful Appointment      - 2: check(findTestObject("Page_CuraAppointment/chk_Medicaid"))
+2026-04-04 17:08:33.916 DEBUG t.TC2_Verify Successful Appointment      - 3: check(findTestObject("Page_CuraAppointment/chk_Readmission"))
+2026-04-04 17:08:34.180 DEBUG t.TC2_Verify Successful Appointment      - 4: setText(findTestObject("Page_CuraAppointment/txt_VisitDate"), "27/12/2016")
+2026-04-04 17:08:34.713 DEBUG t.TC2_Verify Successful Appointment      - 5: setText(findTestObject("Page_CuraAppointment/txt_Comment"), "Please make appointment as soon as possible.")
+2026-04-04 17:08:35.441 DEBUG t.TC2_Verify Successful Appointment      - 7: comment("When he fills in valid information in Appointment page")
+2026-04-04 17:08:35.444 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - When he fills in valid information in Appointment page
+2026-04-04 17:08:35.447 DEBUG t.TC2_Verify Successful Appointment      - 8: click(findTestObject("Page_CuraAppointment/btn_BookAppointment"))
+2026-04-04 17:08:35.719 DEBUG t.TC2_Verify Successful Appointment      - 9: verifyTextPresent("Appointment Confirmation", false)
+2026-04-04 17:08:36.460 DEBUG t.TC2_Verify Successful Appointment      - 10: comment("Then he should be able to book a new appointment")
+2026-04-04 17:08:36.461 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Then he should be able to book a new appointment
+2026-04-04 17:08:36.462 DEBUG t.TC2_Verify Successful Appointment      - 11: if (true)
+2026-04-04 17:08:36.463 DEBUG t.TC2_Verify Successful Appointment      - 1: verifyMatch("Hongkong CURA Healthcare Center", getText(findTestObject("Page_AppointmentConfirmation/lbl_Facility")), false)
+2026-04-04 17:08:36.710 DEBUG t.TC2_Verify Successful Appointment      - 2: verifyMatch("Yes", getText(findTestObject("Page_AppointmentConfirmation/lbl_HospitalReadmission")), false)
+2026-04-04 17:08:36.939 DEBUG t.TC2_Verify Successful Appointment      - 3: verifyMatch("Medicaid", getText(findTestObject("Page_AppointmentConfirmation/lbl_Program")), false)
+2026-04-04 17:08:37.166 DEBUG t.TC2_Verify Successful Appointment      - 4: verifyMatch("27/12/2016", getText(findTestObject("Page_AppointmentConfirmation/lbl_VisitDate")), false)
+2026-04-04 17:08:37.392 DEBUG t.TC2_Verify Successful Appointment      - 5: verifyMatch("Please make appointment as soon as possible.", getText(findTestObject("Page_AppointmentConfirmation/lbl_Comment")), false)
+2026-04-04 17:08:37.620 DEBUG t.TC2_Verify Successful Appointment      - 12: takeScreenshot()
+2026-04-04 17:08:38.420 DEBUG t.TC2_Verify Successful Appointment      - 13: closeBrowser()
+2026-04-04 17:08:40.582 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/Main Test Cases/TC2_Verify Successful Appointment' .
+2026-04-04 17:08:40.583 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Main Test Cases/TC2_Verify Successful Appointment
+2026-04-04 17:08:40.584 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-04 17:08:40.585 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Main Test Cases/TC3_Visual Testing Example
+2026-04-04 17:08:40.617 DEBUG testcase.TC3_Visual Testing Example      - 1: comment("Story: Book an appointment")
+2026-04-04 17:08:40.618 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Story: Book an appointment
+2026-04-04 17:08:40.619 DEBUG testcase.TC3_Visual Testing Example      - 2: comment("Given that the user has logged into their account")
+2026-04-04 17:08:40.620 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Given that the user has logged into their account
+2026-04-04 17:08:40.621 DEBUG testcase.TC3_Visual Testing Example      - 3: openBrowser(G_SiteURL)
+2026-04-04 17:08:40.622 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2026-04-04 17:08:40.622 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+2026-04-04 17:08:40.623 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-04 17:08:42.580 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4170350b7bb55bf0ae188e1fb40a75dd
+2026-04-04 17:08:42.583 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 146.0.7680.165
+2026-04-04 17:08:42.583 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-04-04 17:08:42.583 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-04 17:08:42.583 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-04 17:08:48.688 DEBUG testcase.TC3_Visual Testing Example      - 4: takeScreenshotAsCheckpoint("login page")
+2026-04-04 17:08:49.576 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2026-04-04 17:08:49.620 DEBUG testcase.TC3_Visual Testing Example      - 5: callTestCase(findTestCase("Common Test Cases/Login"), ["Username":"John Doe", "Password":"ThisIsNotAPassword"], STOP_ON_FAILURE)
+2026-04-04 17:08:49.679 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-04 17:08:49.679 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common Test Cases/Login
+2026-04-04 17:08:49.685 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = John Doe
+2026-04-04 17:08:49.685 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = ThisIsNotAPassword
+2026-04-04 17:08:49.687 DEBUG testcase.Login                           - 1: click(findTestObject("Page_CuraHomepage/btn_MakeAppointment"))
+2026-04-04 17:08:50.601 DEBUG testcase.Login                           - 2: setText(findTestObject("Page_Login/txt_UserName"), Username)
+2026-04-04 17:08:51.298 DEBUG testcase.Login                           - 3: setText(findTestObject("Page_Login/txt_Password"), Password)
+2026-04-04 17:08:51.832 DEBUG testcase.Login                           - 4: click(findTestObject("Page_Login/btn_Login"))
+2026-04-04 17:08:52.644 DEBUG testcase.Login                           - 5: landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout)
+2026-04-04 17:08:53.086 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common Test Cases/Login
+2026-04-04 17:08:53.086 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-04 17:08:53.088 DEBUG testcase.TC3_Visual Testing Example      - 6: comment("And Appointment page is displayed")
+2026-04-04 17:08:53.090 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - And Appointment page is displayed
+2026-04-04 17:08:53.090 DEBUG testcase.TC3_Visual Testing Example      - 7: if (true)
+2026-04-04 17:08:53.091 DEBUG testcase.TC3_Visual Testing Example      - 1: takeScreenshotAsCheckpoint("appointment page")
+2026-04-04 17:08:53.871 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2026-04-04 17:08:53.884 DEBUG testcase.TC3_Visual Testing Example      - 2: selectOptionByLabel(findTestObject("Page_CuraAppointment/lst_Facility"), "Hongkong CURA Healthcare Center", false)
+2026-04-04 17:08:54.438 DEBUG testcase.TC3_Visual Testing Example      - 3: check(findTestObject("Page_CuraAppointment/chk_Medicaid"))
+2026-04-04 17:08:54.714 DEBUG testcase.TC3_Visual Testing Example      - 4: check(findTestObject("Page_CuraAppointment/chk_Readmission"))
+2026-04-04 17:08:54.991 DEBUG testcase.TC3_Visual Testing Example      - 5: setText(findTestObject("Page_CuraAppointment/txt_VisitDate"), "27/12/2016")
+2026-04-04 17:08:55.527 DEBUG testcase.TC3_Visual Testing Example      - 6: setText(findTestObject("Page_CuraAppointment/txt_Comment"), "Please make appointment as soon as possible.")
+2026-04-04 17:08:56.280 DEBUG testcase.TC3_Visual Testing Example      - 8: comment("When he fills in valid information in Appointment page")
+2026-04-04 17:08:56.282 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - When he fills in valid information in Appointment page
+2026-04-04 17:08:56.285 DEBUG testcase.TC3_Visual Testing Example      - 9: click(findTestObject("Page_CuraAppointment/btn_BookAppointment"))
+2026-04-04 17:08:56.563 DEBUG testcase.TC3_Visual Testing Example      - 10: verifyTextPresent("Appointment Confirmation", false)
+2026-04-04 17:08:57.274 DEBUG testcase.TC3_Visual Testing Example      - 11: comment("Then he should be able to book a new appointment")
+2026-04-04 17:08:57.276 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Then he should be able to book a new appointment
+2026-04-04 17:08:57.277 DEBUG testcase.TC3_Visual Testing Example      - 12: if (true)
+2026-04-04 17:08:57.278 DEBUG testcase.TC3_Visual Testing Example      - 1: takeFullPageScreenshotAsCheckpoint("booked appointment", [findTestObject("Page_AppointmentConfirmation/lbl_VisitDate")])
+2026-04-04 17:08:57.287 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '30'
+2026-04-04 17:08:57.513 INFO  c.kms.katalon.core.webui.util.FileUtil   - 1 hidden object(s)
+2026-04-04 17:08:57.679 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2026-04-04 17:08:57.746 DEBUG testcase.TC3_Visual Testing Example      - 2: verifyMatch("Hongkong CURA Healthcare Center", getText(findTestObject("Page_AppointmentConfirmation/lbl_Facility")), false)
+2026-04-04 17:08:57.975 DEBUG testcase.TC3_Visual Testing Example      - 3: verifyMatch("Yes", getText(findTestObject("Page_AppointmentConfirmation/lbl_HospitalReadmission")), false)
+2026-04-04 17:08:58.200 DEBUG testcase.TC3_Visual Testing Example      - 4: verifyMatch("Medicaid", getText(findTestObject("Page_AppointmentConfirmation/lbl_Program")), false)
+2026-04-04 17:08:58.425 DEBUG testcase.TC3_Visual Testing Example      - 5: verifyMatch("27/12/2016", getText(findTestObject("Page_AppointmentConfirmation/lbl_VisitDate")), false)
+2026-04-04 17:08:58.647 DEBUG testcase.TC3_Visual Testing Example      - 6: verifyMatch("Please make appointment as soon as possible.", getText(findTestObject("Page_AppointmentConfirmation/lbl_Comment")), false)
+2026-04-04 17:08:58.870 DEBUG testcase.TC3_Visual Testing Example      - 13: takeScreenshot()
+2026-04-04 17:08:59.623 DEBUG testcase.TC3_Visual Testing Example      - 14: closeBrowser()
+2026-04-04 17:09:01.796 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/Main Test Cases/TC3_Visual Testing Example' .
+2026-04-04 17:09:01.796 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Main Test Cases/TC3_Visual Testing Example
+2026-04-04 17:09:01.808 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-04-04 17:09:01.808 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/healthcare-tests - TS_RegressionTest
+2026-04-04 17:09:01.808 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

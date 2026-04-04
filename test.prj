@@ -6,8 +6,10 @@
    <UUID>bc1ce991-d137-4077-8fea-fde5be2bda52</UUID>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>11.1.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/hung.doan/Katalon Studio/project sample/test.prj</projectFileLocation>
+   <projectFileLocation>/Users/hung.doan/git/testing-KAI-feats/test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

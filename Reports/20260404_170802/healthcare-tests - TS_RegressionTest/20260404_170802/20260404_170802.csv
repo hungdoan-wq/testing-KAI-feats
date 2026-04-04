@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+healthcare-tests - TS_RegressionTest,Chrome 146.0.7680.165,,,04-04-2026 17:08:05,04-04-2026 17:09:01,56.245s,PASSED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,Chrome 146.0.7680.165,,,04-04-2026 17:08:05,04-04-2026 17:08:05,0.033s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Chrome 146.0.7680.165,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,04-04-2026 17:08:05,04-04-2026 17:08:22,16.568s,PASSED
+"DATA BINDING - {""(Default) Passw..."":""ThisIsNotAPassword"",""(Default) Usern..."":""John Doe""}",,,,,,,
+"comment(""Story: Login to CURA system"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:06,04-04-2026 17:08:06,0.038s,PASSED
+"comment(""Given that the user has the valid login information"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:06,04-04-2026 17:08:06,0.004s,PASSED
+openBrowser(G_SiteURL),Chrome 146.0.7680.165,,,04-04-2026 17:08:06,04-04-2026 17:08:16,10.318s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 146.0.7680.165,,,04-04-2026 17:08:16,04-04-2026 17:08:17,0.972s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Chrome 146.0.7680.165,,,04-04-2026 17:08:17,04-04-2026 17:08:18,0.844s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Password)",Chrome 146.0.7680.165,,,04-04-2026 17:08:18,04-04-2026 17:08:18,0.533s,PASSED
+"comment(""When he logins to CURA system"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:18,04-04-2026 17:08:18,0.002s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Chrome 146.0.7680.165,,,04-04-2026 17:08:18,04-04-2026 17:08:19,0.837s,PASSED
+"comment(""Then he should be able to login successfully"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:19,04-04-2026 17:08:19,0.016s,PASSED
+"landingPage = verifyElementPresent(findTestObject(""Page_CuraAppointment/div_Appointment""), G_Timeout)",Chrome 146.0.7680.165,,,04-04-2026 17:08:19,04-04-2026 17:08:20,0.442s,PASSED
+closeBrowser(),Chrome 146.0.7680.165,,,04-04-2026 17:08:20,04-04-2026 17:08:20,0.105s,PASSED
+Video,Chrome 146.0.7680.165,,,04-04-2026 17:08:22,04-04-2026 17:08:22,0.001s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Chrome 146.0.7680.165,"Verify if users can book an appointment sucessfully.
+Pre-condition: Users have already logged in
+
+Steps:
+- Fill in appoinment's information
+- Click on appointment's button
+
+Expected results:
+Appointment Confirmation page is displayed",,04-04-2026 17:08:22,04-04-2026 17:08:40,18.367s,PASSED
+"comment(""Story: Book an appointment"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:22,04-04-2026 17:08:22,0.002s,PASSED
+"comment(""Given that the user has logged into their account"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:22,04-04-2026 17:08:22,0.001s,PASSED
+openBrowser(G_SiteURL),Chrome 146.0.7680.165,,,04-04-2026 17:08:22,04-04-2026 17:08:29,7.043s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",Chrome 146.0.7680.165,,,04-04-2026 17:08:29,04-04-2026 17:08:33,3.813s,PASSED
+"comment(""And Appointment page is displayed"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:33,04-04-2026 17:08:33,0.002s,PASSED
+if (true),Chrome 146.0.7680.165,,,04-04-2026 17:08:33,04-04-2026 17:08:35,2.316s,PASSED
+"comment(""When he fills in valid information in Appointment page"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:35,04-04-2026 17:08:35,0.006s,PASSED
+"click(findTestObject(""Page_CuraAppointment/btn_BookAppointment""))",Chrome 146.0.7680.165,,,04-04-2026 17:08:35,04-04-2026 17:08:35,0.271s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 146.0.7680.165,,,04-04-2026 17:08:35,04-04-2026 17:08:36,0.740s,PASSED
+"comment(""Then he should be able to book a new appointment"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:36,04-04-2026 17:08:36,0.002s,PASSED
+if (true),Chrome 146.0.7680.165,,,04-04-2026 17:08:36,04-04-2026 17:08:37,1.158s,PASSED
+takeScreenshot(),Chrome 146.0.7680.165,,,04-04-2026 17:08:37,04-04-2026 17:08:38,0.800s,PASSED
+closeBrowser(),Chrome 146.0.7680.165,,,04-04-2026 17:08:38,04-04-2026 17:08:38,0.106s,PASSED
+Video,Chrome 146.0.7680.165,,,04-04-2026 17:08:40,04-04-2026 17:08:40,0.000s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC3_Visual Testing Example,Chrome 146.0.7680.165,,,04-04-2026 17:08:40,04-04-2026 17:09:01,21.211s,PASSED
+"comment(""Story: Book an appointment"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:40,04-04-2026 17:08:40,0.001s,PASSED
+"comment(""Given that the user has logged into their account"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:40,04-04-2026 17:08:40,0.002s,PASSED
+openBrowser(G_SiteURL),Chrome 146.0.7680.165,,,04-04-2026 17:08:40,04-04-2026 17:08:48,8.070s,PASSED
+"takeScreenshotAsCheckpoint(""login page"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:48,04-04-2026 17:08:49,0.926s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",Chrome 146.0.7680.165,,,04-04-2026 17:08:49,04-04-2026 17:08:53,3.468s,PASSED
+"comment(""And Appointment page is displayed"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:53,04-04-2026 17:08:53,0.001s,PASSED
+if (true),Chrome 146.0.7680.165,,,04-04-2026 17:08:53,04-04-2026 17:08:56,3.189s,PASSED
+"comment(""When he fills in valid information in Appointment page"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:56,04-04-2026 17:08:56,0.004s,PASSED
+"click(findTestObject(""Page_CuraAppointment/btn_BookAppointment""))",Chrome 146.0.7680.165,,,04-04-2026 17:08:56,04-04-2026 17:08:56,0.279s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 146.0.7680.165,,,04-04-2026 17:08:56,04-04-2026 17:08:57,0.710s,PASSED
+"comment(""Then he should be able to book a new appointment"")",Chrome 146.0.7680.165,,,04-04-2026 17:08:57,04-04-2026 17:08:57,0.003s,PASSED
+if (true),Chrome 146.0.7680.165,,,04-04-2026 17:08:57,04-04-2026 17:08:58,1.593s,PASSED
+takeScreenshot(),Chrome 146.0.7680.165,,,04-04-2026 17:08:58,04-04-2026 17:08:59,0.753s,PASSED
+closeBrowser(),Chrome 146.0.7680.165,,,04-04-2026 17:08:59,04-04-2026 17:08:59,0.100s,PASSED
+Video,Chrome 146.0.7680.165,,,04-04-2026 17:09:01,04-04-2026 17:09:01,0.001s,PASSED
