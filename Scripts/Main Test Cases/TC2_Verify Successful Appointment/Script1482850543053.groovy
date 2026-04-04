@@ -19,12 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
-import com.kms.katalon.core.util.KeywordUtil
-
-
-
-KeywordUtil.logInfo(System.getProperty("testme"))
-
 WebUI.comment('Story: Book an appointment')
 
 WebUI.comment('Given that the user has logged into their account')

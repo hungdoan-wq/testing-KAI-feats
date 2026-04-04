@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>sample test</name>
+   <name>test</name>
    <tag></tag>
-   <UUID>36a6d907-9ed9-46a4-bea5-a8feea930cb1</UUID>
-   <createdEdition>ENTERPRISE</createdEdition>
-   <createdVersion>11.0.0</createdVersion>
+   <UUID>bc1ce991-d137-4077-8fea-fde5be2bda52</UUID>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>11.0.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/hung.doan/Katalon Studio/project sample/test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -29,6 +26,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
-   <timeStampInProperties>false</timeStampInProperties>
+   <timeStampInProperties>true</timeStampInProperties>
    <type>WEBUI</type>
 </Project>
